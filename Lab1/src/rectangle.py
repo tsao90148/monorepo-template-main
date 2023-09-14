@@ -8,6 +8,7 @@ from abc import ABC, abstractclassmethod
  so a default one will be created for us.
 """
 class Shape(ABC):
+    """abstract class shape has set_value and area functions"""
     @abstractclassmethod
     def set_value(self,width,height):
         pass
@@ -16,7 +17,8 @@ class Shape(ABC):
     def area(self):
         pass
 
-class Rectangle:
+class Rectangle(Shape):
+    """class rectangle is a subclass of abstract class shape"""
     def set_values(self, width, height):
         self._width = width
         self._height = height
