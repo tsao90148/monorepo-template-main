@@ -1,13 +1,13 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
+- Name:Chung-ang Tsao
+- How many hours did it take you to complete this assignment? two days
 - Did you collaborate with any other students/TAs/Professors?
 - Did you use any external resources? (Cite them below)
-  - tbd
+  - links given by professor
   - tbd
 - (Optional) What was your favorite part of the assignment?
-- (Optional) How would you improve the assignment?
+- (Optional) How would you improve the assignment? some parts are unclear. link to how to generate a changelog does not work. it says 404 page not found. deliverables in readme showed that we just need jsonapi.py and test_jsonapi.py in part1 folder. but readme in part 2 is asking for a whole tree of items. 
 
 # Implementation Logistics
 
