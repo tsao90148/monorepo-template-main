@@ -6,17 +6,17 @@ Update your answers to the following questions, make sure to commit this file an
 ## Task 1 - oop.py
 
 1. Is MObject an abstract or a concrete class? Explain why:
-	- *edit your response*
+	-  Abstract class typically cannot be instantiated and usually says @abstractmethod above its methods. In the code, there's also no abc module used. MObject should be a concrete class since it has __init__ function inside.
 1. The 'Image' class has commented code for a `__del__` method. What does this commented-out method do?
-	- *edit your response*
+	- __del__ method is a finalizer that is sometimes called a destructor. It basically is called when an object is collected as garbage after all the object's reference is deleted.
 1. What class does Texture inherit from?
-	- *edit your response*
+	- According to the "class Texture(Image):" line in the code, texture inherits from the Image class and all its methods.  
 1. What methods and attributes does the Texture class inherit from 'Image'? 
-	- *edit your response*
+	- All methods including getWidth, getHeight, getPixelColorR, getPixel, and setPixelsToRandomValue methods and m_width, m_height, m_colorChannels, and m_pixels attributes are inherited from the Image class.  
 1. Do you think a texture should have a 'has-a' (composition) or 'is-a'(inheritance) relationship with 'Image'? If you think it is a 'has-a' relationship, refactor the code. As long as you defend your decision in the response below it could be either--but defend your position well!
-	- *edit your response*
+	- The relationship between texture and image should be a "is-a" relationship. This is because texture is not a composition and when texture is removed, it will not affect the image class itself. However, this does not work the other way around.  
 1. I did not declare a constructor for Texture. Does Python automatically create constructors for us? 
-	- *edit your response*
+	- Yes, python has a default constructor when none is defined. 
 
 ## Task 2 - Singleton
 
@@ -29,6 +29,4 @@ Note: You do not 'have' a constructor, but you construct the object in the *inst
 Hint: Look at Lecture 3 slides for an example of creating a Singleton in Python
 
 1. Are singleton's in Python thread safe? Why or why not?
-
-*edit the code directly*  
-  
+In a single thread, yes but not in a multi-thread environment. In multi-thread, instances are created simultaneously in different threads.   
