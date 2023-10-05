@@ -6,31 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: User Draw
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To draw on the canvas where the mouse points.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: (1) Clicking the left key of the mouse once and then clicking left key again once. (2) Continuously holding down the left key of the mouse.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario 1**: A user will press the left key, move the mouse on canvas to draw, and then click the left key of the mouse again.
 
-**When available**: *the targeted release that covers this use case*
+**Scenario 2**: A user will press down and drag their mouse across the canvas to draw.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Exceptions**: The program may become potentially unresponsive. During this, the program can be terminated from the operating system.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Priority**: High-priority.
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**When available**: First release
 
-**Open Issues**: *notes, concerns, or other materials*
+**Channel to actor**: The primary actor communicates through the mouse, one of the I/O devices, of the user's system. 
+
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: We may implement other creative ways for user to draw such as holding down space while dragging mouse across.
 
 <hr>
 

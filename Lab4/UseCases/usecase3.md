@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Clearing Canvas with Space Bar
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To clear the canvas of the program.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: Pressing the space bar.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario 1**: A user will press the space bar when they want a blank canvas.
 
-**When available**: *the targeted release that covers this use case*
+**Exceptions**: The program may become potentially unresponsive. During this, the program can be terminated from the operating system.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Priority**: High-priority.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**When available**: First release
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channel to actor**: The primary actor communicates through the keyboard, one of the I/O devices, of the user. All commands are from the user.
 
-**Open Issues**: *notes, concerns, or other materials*
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: We may need to implement a "are you sure?" function to double check if the user accidentally hit space bar or was it intentional. 
 
 <hr>
 

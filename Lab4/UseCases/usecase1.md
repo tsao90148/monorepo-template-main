@@ -6,31 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Program Window Size
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To create a window with 600x400 drawable canvas size.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be started by user.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: Opens program/application.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 1**: A user will double click a shortcut of the application.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario 2**: A user will run the program with command line commands. 
 
-**When available**: *the targeted release that covers this use case*
+**Exceptions**: The computer or program may be potentially unresponsive. In this case, the program can be terminated from the operating system.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Priority**: High-priority.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**When available**: First release
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channel to actor**: All communication goes through I/O devices including the keyboard and the mouse. The user can decide what input to give to the I/O device in order to interact with the system which is responsible for maintaining focus of the window when the user clicks, and running the program
 
-**Open Issues**: *notes, concerns, or other materials*
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: We may need to implement multiple canvas sizes for user to pick instead of locking it at 600x400 when launched.
 
 <hr>
 
