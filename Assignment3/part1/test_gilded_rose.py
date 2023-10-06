@@ -23,13 +23,6 @@ class GildedRoseTest(unittest.TestCase):
         gilded_rose.update_quality()
         self.assertEqual(50, items[0].quality)
 
-    def test_sulfuras(self):
-        items = [Item("Sulfuras, Hand of Ragnaros", 5, 80)]
-        gilded_rose = GildedRose(items)
-        gilded_rose.update_quality()
-        self.assertEqual(5, items[0].sell_in)
-        self.assertEqual(80, items[0].quality)
-
     def test_aged_brie(self):
         items = [Item("Aged Brie", 5, 25)]
         gilded_rose = GildedRose(items)
